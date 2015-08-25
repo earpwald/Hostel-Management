@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Temporary Hostel management is based at providing hostel managers a chance to take a break whilst ensuring that their hostel continues to run and function smoothly in her absence.">
+    <meta name="author" content="James Anderson">
+
+    <title>Hostel Management</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body class="mm single-post">
+    <header id="header" class="header">
+      <nav class="top-nav">
+        <a class="logo"></a>
+        <div class="links about">
+          <a href="index.html"><span>About</span><span>About</span></a>
+        </div>
+        <div class="links resume">
+          <a href="resume.html"><span>Résumé</span><span>Résumé</span></a>
+        </div>
+        <div class="links feedback">
+          <a href="feedback.html"><span>Feedback</span><span>Feedback</span></a>
+        </div>
+        <div class="links contact">
+          <a href="contact.html"><span>Contact</span><span>Contact</span></a>
+        </div>
+      </nav>
+    </header>    
+
+    <div id="site" class="site navy" data-color="navy">      
+      <div id="article" class="article">
+        <div id="contact" class="contact post" data-color="purple">
+
+          <h1>Contact US - We value your feedback</h1>
+
+          <div class="post-content">
+            <p>If you are interested in getting a temporary manager for your hostel, or just want more information, please fill out the form below and we will get back to you as quickly as we can.  Alternatively you can call Kathy at <a href="tel:+64223800878">64-223800878</a></p>
+
+            <form class="contact" method="post" action="contact.php" data-parsley-validate>
+              <div class="row">
+                <div class="col-md-5">
+                  <label>First Name</label><br/>
+                  <input type="text" placeholder="Your First Name" name="firstName" class="firstName" data-parsley-required /><br/>
+                  <label>Last Name</label><br/>
+                  <input type="text" placeholder="Your Last Name" name="lastName" class="lastName" data-parsley-required/><br/>
+                  <label>Email Address</label><br/>
+                  <input type="text" placeholder="Your email address" name="contactEmail" class="contactEmail" data-parsley-required data-parsley-type="email" /><br/>
+                </div>
+                <div class="col-md-7">
+                  <label class="col-md-1">Message</label><br/>
+                  <textarea name="message" id="message" class="input-xlarge" rows="10" class="col-md-11" style="width: 90%; resize: none;" class="message" data-parsley-required ></textarea>
+                </div>
+                
+                <button type="submit" class="button">Send</button>
+              </div>
+            </form>
+          </div><!--.post-content-->
+        </div><!-- #post-## -->
+      </div><!--#article-->
+    </div><!--/site-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/parsley.min.js"></script>
+  </body>
+</html>
