@@ -1,0 +1,22 @@
+{
+  "name": "hostel_booking_system",
+  "description": "Online booking system.",
+  "version": "0.0.1",
+  "author": "James Anderson",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.9.0",
+    "connect-mongo": "~0.4.1",
+    "express": "~4.10.1",
+    "express-session": "~1.9.1",
+    "mongoose": "~3.8.8",
+    "mongoose-validator": "^1.2.3",
+    "morgan": "^1.6.1",
+    "multer": "^1.0.3"
+  },
+  "devDependencies": {}
+}
